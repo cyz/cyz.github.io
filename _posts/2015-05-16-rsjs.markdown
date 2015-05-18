@@ -1,0 +1,13 @@
+---
+layout:     post
+title:      "RSJS 2015"
+subtitle:   "Material da minha palestra sobre Firefox OS e review sobre o evento(in progress)"
+date:       2015-05-16 12:00:00
+author:     "@cyz"
+header-img: "img/pattern-rsjs.jpg"
+---
+
+<p>A conferência bagual foi simplesmente nota 10 em todos os quesitos. Os organizadores estão de parabéns! <br/> Muito legal encontrar a comunidade, fazer novas amizades e conversar nerdices com os amigos :)</p>
+
+
+<p>O material da minha talk sobre Firefox OS está disponível <a href="{{ site.baseurl }}/talk/firefoxos-rsjs" target="_external">aqui</a>.</p>
