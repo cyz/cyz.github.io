@@ -1,13 +1,15 @@
 ---
 layout:     post
 title:      "RSJS 2015"
-subtitle:   "Material da minha palestra sobre Firefox OS e review sobre o evento(in progress)"
+subtitle:   "Material da minha palestra sobre Firefox OS e review sobre o evento"
 date:       2015-05-16 12:00:00
 author:     "@cyz"
 header-img: "img/pattern-rsjs.jpg"
 ---
+<p>O RSJS é a segunda maior conferência de JavaScript que acontece no Rio Grande do Sul. Neste ano, tive a honra de poder participar e compartilhar minha visão sobre o que é e onde o desenvolvimento para Firefox OS pode representar. </p>
 
-<p>A conferência bagual foi simplesmente nota 10 em todos os quesitos. Os organizadores estão de parabéns! <br/> Muito legal encontrar a comunidade, fazer novas amizades e conversar nerdices com os amigos :)</p>
+<p>Apresentei a palestra "Firefox OS e o mobile de amanhã", contando sobre o surgimento do sistema, como desenvolver e o que podemos esperar num futuro próximo. Além disso, pude falar sobre outros projetos como o MDN e WoMoz. </p>
 
+<p>Um ponto interessante na minha apresentação, é que no break de perguntas e depois no intervalo, vários devs vieram conversar e pedir mais informações sobre o WoMoz, pois gostaria de ver suas amigas, namoradas, familiares, conhecerem, aprenderem e participarem da iniciativa. Acredito que este seja um movimento natural, de buscar a integração e maior envolvimento de mulheres na tecnologia (muito mais que um simples conceito, mas colocando a mão na massa junto!), que tem ganhado força na comunidade de desenvolvendo brasileira.</p>
 
 <p>O material da minha talk sobre Firefox OS está disponível <a href="{{ site.baseurl }}/talk/firefoxos-rsjs" target="_external">aqui</a>.</p>
