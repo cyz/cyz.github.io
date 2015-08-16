@@ -24,7 +24,7 @@ Queremos ensiná-las a desenvolver, a aprenderem juntas e encorajá-las fazer a 
 
 <h3>O grande dia</h3>
 
-<p>Finalmente, 15 de Agosto ~aka o grande~ chegou e para nos deixar mais felizes ainda, a primeira turma do JS4Girls de Porto Alegre estava lotada. Isso mesmo, 25 gurias acordaram cedo e foram aprender javascript!</p>
+<p>Finalmente, 15 de Agosto ~aka o grande dia~ chegou e para nos deixar mais felizes ainda, a primeira turma do JS4Girls de Porto Alegre estava lotada. Isso mesmo, 25 gurias acordaram cedo e foram aprender javascript!</p>
 
 <p>Na abertura do curso, fiz a apresentação do projeto e um pouco sobre como foi meu primeiro contato com javascript e pedi para que todas fizessem uma breve apresentação e assim encaminhar a formação de pequenos grupos para avançar nos estudos no decorrer do dia. Essas breves apresentações, contribuiram para quebrar o gelo (e um pouco do medo), pois todas eram de áreas diferentes e que o JS4Girls era a real oportunidade de aprender, errar, perguntar e divar. Sim, DIVAR!!! E sabe por quê? As frases que mais ouvi foram:<br/>
 <em>"Se eu soubesse que era tão fácil, já tinha feito isso antes!"</em> <br/>
