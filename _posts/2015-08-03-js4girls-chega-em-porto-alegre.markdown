@@ -4,7 +4,7 @@ title:      "JS4GIRLS chega a Porto Alegre!"
 subtitle:   "Projeto open-source para capacitar e inspirar mulheres ao desenvolvimento web"
 date:       2015-08-03 20:55:00
 author:     "@cyz"
-header-img: ""
+header-img: "img/js4girls.png"
 ---
 
 <p>Durante ao FISL, conheci o projeto criado pelo <a href="http://nomadev.com.br/" target="_external">Suissa</a>, coincidentemente, no mesmo dia que iria palestrar sobre o WoMoz. O WoMoz é um projeto mantido pela comunidade Mozilla, que tem como principal objetivo o empoderamento feminino, em busca da libertação de todos os paradigmas limitadores para presença e trabalho de mulheres em diversos meios "masculinos", como a tecnologia. Vi no JS4Girls uma oportunidade de contribuir para o fortalecimento e valorização das mulheres na TI.</p>
