@@ -2,7 +2,7 @@
 layout:     post
 title:      "JS4GIRLS chega a Porto Alegre!"
 subtitle:   "Projeto open-source para capacitar e inspirar mulheres ao desenvolvimento web"
-date:       2015-08-17 20:55:00
+date:       2015-08-03 20:55:00
 author:     "@cyz"
 header-img: "img/js4girls.jpg"
 ---
