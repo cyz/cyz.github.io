@@ -11,9 +11,7 @@ author-photo: cynthia-zanoni.jpg
 resume-author: "Entusiasta e membro ativo de comunidades de tecnologia ligadas à Web e Mobile, organizadora de eventos como <strong>Mobile Summit</strong> e curadora do projeto WoMakersCode. Atualmente, é Evangelista Técnica na Microsoft Brasil."
 ---
 
-# #AzureSolutionlet - Dados Abertos
-
-##Wifi Livre em São Paulo
+>> Wifi Livre em São Paulo
 Encontre redes wifi com acesso gratuito na cidade de São Paulo.
 
 > Este web app foi desenvolvido com dados abertos e hospedado na plataforma [Microsoft Azure](https://azure.microsoft.com/pt-br/) e faz parte da série #AzureSolutionlets, onde resolve-se problemas específicos através de rápidos deploys utilizando o Microsoft Azure. Os dados abertos utilizados nesta aplicação, estão disponíveis no portal [Praças Wifi Livre SP](http://wifilivre.sp.gov.br/). 
