@@ -1,11 +1,10 @@
 ---
-layout:     post
-title:      "RSJS 2012 - Retrospectiva"
-subtitle:   "Retrospectiva do RSJS 2012"
+layout:     external
+title:      "Retrospectiva RSJS 2012"
+external: http://gri.fo/blog/rsjs-retrospectiva/
 date:       2012-09-14 08:00:00
-author:     "@cyz"
-header-img: "img/about-bg.jpg"
+resume: "Retrospectiva do RSJS 2012"
+facebook: cynthia.zanoni
+twitter: cynthia_zanoni
+author: Cynthia Zanoni
 ---
-
-<p>Resumo das palestras que rolaram no RSJS de 2012.</p>
-<p>Publicado no <a href="http://gri.fo/blog/rsjs-retrospectiva/" target="_external">blog da Grifo</a>.</p>

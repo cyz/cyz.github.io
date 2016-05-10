@@ -1,17 +1,15 @@
-# Site settings
-title: Cynthia Zanoni
-header-img: img/home-bg.jpg
-email: cynthiazanoni@gmail.com
-description: "Cynthia Zanoni, desenvolvedora front-end e mobile."
-baseurl: ""
-url: "cyz.github.io"
-twitter_username: cynthia_zanoni
-github_username:  cyz
-facebook_username:  cynthiazanoni
+name: Cynthia Zanoni
+description: I work for the internets and love open web
+meta_description: "Blog de Cynthia Zanoni, evangelista de tecnologias open web, organizadora do Mobile Summit e fundadora do WoMakersCode.org"
 
-# Build settings
 markdown: kramdown
-highlighter: pygments
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+highlighter: rouge
+logo: false
+paginate: 3
+baseurl: /
+domain_name: 'http://cyz.github.io'
+google_analytics: 'UA-58464382-1'
+gems: [jekyll-paginate]
+
+url:            'http://cyz.github.io'
+author:         'Cynthia Zanoni'

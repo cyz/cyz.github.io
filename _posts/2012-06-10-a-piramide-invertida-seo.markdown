@@ -1,10 +1,14 @@
 ---
-layout:     post
-title:      "A Pirâmide Invertida"
-subtitle:   "Técnica para desenvolvimento e estruração de conteúdo."
-date:       2012-06-10 08:00:00
-author:     "@cyz"
-header-img: "img/about-bg.jpg"
+layout: post
+title:  "A Pirâmide Invertida"
+resume: "Pirâmide Invertida é uma técnica que desenvolve a estrutura organizacional de um conteúdo."
+date:   2012-06-10 08:00:00
+categories: seo
+facebook: cynthia.zanoni
+twitter: cynthia_zanoni
+author: Cynthia Zanoni
+author-photo: cynthia-zanoni.jpg
+resume-author: "Entusiasta e membro ativo de comunidades de tecnologia ligadas à Web e Mobile, organizadora de eventos como <strong>Mobile Summit</strong> e curadora do projeto WoMakersCode. Atualmente, é Evangelista Técnica na Microsoft Brasil."
 ---
 
 <p>Pirâmide Invertida é uma técnica que desenvolve a estrutura organizacional de um conteúdo. Com ela é possível usuário "ir direto ao ponto", ou seja, ele encontrará facilmente o que lhe interessa, assim aprimorando e intensificando sua experiência.</p>

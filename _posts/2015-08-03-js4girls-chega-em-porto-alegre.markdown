@@ -1,17 +1,20 @@
 ---
 layout:     post
 title:      "JS4GIRLS chega a Porto Alegre!"
-subtitle:   "Projeto open-source para capacitar e inspirar mulheres ao desenvolvimento web"
+resume:   "O WoMakersCode apoiou a vinda do JS4GIRLS em Porto Alegre."
 date:       2015-08-17 20:55:00
-author:     "@cyz"
-header-img: "img/js4girls.jpg"
+facebook: cynthia.zanoni
+twitter: cynthia_zanoni
+author: Cynthia Zanoni
+author-photo: cynthia-zanoni.jpg
+resume-author: "Entusiasta e membro ativo de comunidades de tecnologia ligadas à Web e Mobile, organizadora de eventos como <strong>Mobile Summit</strong> e curadora do projeto WoMakersCode. Atualmente, é Evangelista Técnica na Microsoft Brasil."
 ---
 
 <p>Durante ao FISL, conheci o projeto criado pelo <a href="http://nomadev.com.br/" target="_external">Suissa</a>, coincidentemente, no mesmo dia que iria palestrar sobre o WoMoz. O WoMoz é um projeto mantido pela comunidade Mozilla, que tem como principal objetivo o empoderamento feminino, em busca da libertação de todos os paradigmas limitadores para presença e trabalho de mulheres em diversos meios "masculinos", como a tecnologia. Vi no JS4Girls uma oportunidade de contribuir para o fortalecimento e valorização das mulheres na TI.</p>
 
 <h3>O projeto</h3>
 
-<p>O objetivo do JS4Girls é incentivar e capacitar mulheres para o desenvolvimento web, que junto a outros nichos de mercado é carente de profissionais qualificados e tem grande predominancia masculina. Queremos ensiná-las a desenvolver, a aprenderem juntas e encorajá-las fazer a diferença.</p>
+<p>O objetivo do JS4Girls é incentivar e capacitar mulheres para o desenvolvimento web, que junto a outros nichos de mercado é carente de profissionais qualificados e tem grande predominância masculina. Queremos ensiná-las a desenvolver, a aprenderem juntas e encorajá-las fazer a diferença.</p>
 
 <p>Todo o conteúdo é desenvolvido de forma colaborativa pela comunidade de desenvolvimento brasileira e disponibilizado de forma gratuita para todos que quiserem aprender mais sobre javascript. Isso tudo vai ao encontro com um grande movimento, da comunidade em geral, de querer promover uma integração maior de mulheres. Obviamente, nem tudo são flores, pois junto com todo o trabalho que estamos desenvolvendo no JS4Girls, surgiram várias críticas sobre o <em>"por que criar um evento para mulheres? Isso desvaloriza os homens."</em> ou <em>"as mulheres não deveriam ter essas facilidades"</em> e o pior de tudo, outras mulheres falando que as voluntárias do projeto são "metidinhas de merda"(sim, existem mulheres assim!). Por existirem atitudes como estas, o nosso trabalho é extremante importante e necessário e não desvaloriza os homens em nenhum momento, pelo contrário, queremos contar com a contribuição de todos para divulgar e ajudar na expansão do projeto.</p>
 

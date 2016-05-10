@@ -1,10 +1,13 @@
 ---
 layout:     post
-title:      "RSJS 2015"
-subtitle:   "Material da minha palestra sobre Firefox OS e review sobre o evento"
+title:      "RSJS 2015 ~ Firefox OS e o mobile de amanhã"
+resume: "Material da minha palestra sobre Firefox OS no RSJS e review sobre o evento."
 date:       2015-05-16 12:00:00
-author:     "@cyz"
-header-img: "img/pattern-rsjs.jpg"
+facebook: cynthia.zanoni
+twitter: cynthia_zanoni
+author: Cynthia Zanoni
+author-photo: cynthia-zanoni.jpg
+resume-author: "Entusiasta e membro ativo de comunidades de tecnologia ligadas à Web e Mobile, organizadora de eventos como <strong>Mobile Summit</strong> e curadora do projeto WoMakersCode. Atualmente, é Evangelista Técnica na Microsoft Brasil."
 ---
 <p>O RSJS é a segunda maior conferência de JavaScript que acontece no Rio Grande do Sul. Neste ano, tive a honra de poder participar e compartilhar minha visão sobre o que é e onde o desenvolvimento para Firefox OS pode representar. </p>
 

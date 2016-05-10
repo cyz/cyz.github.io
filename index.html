@@ -1,36 +1,60 @@
 ---
-layout: page
-description: "Passionate for new technologies, design and mobile community engagement."
+layout: default
+title: "Cynthia Zanoni | Work for the internets and love open web"
+cover: "assets/images/cover-blog.png"
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Postado por {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
+<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <nav class="main-nav overlay clearfix">
+            {% if page.logo %}
+                <a class="blog-logo" href="{{ site.baseurl }}">
+                    <img src="{{ page.logo }}" alt="Blog Logo" />
+                </a>
+            {% endif %}
+            <a class="subscribe-button icon-link" href="/sobre">Sobre</a>
+            <a class="subscribe-button icon-feed" href="/talks">Talks</a>
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">
+              <figure class="author-image-home">
+                    <a class="img" href="/" style="background-image: url(/assets/images/authors/cynthia-zanoni.jpg)">
+                    <span class="hidden">Cynthia Zanoni's Picture</span></a>
+                </figure>
+            {{ site.name }}</h1>
+            <h2 class="page-description">
+                {% if site.description %} {{ site.description }}. {% endif %}
+                {% if page.about %}{% endif %}
+            </h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Posts recentes</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Posts antigos &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+
+<main id="content" class="content" role="main">
+
+
+    <div class="extra-pagination inner">
+        {% include pagination.html %}
+    </div>
+
+    {% for post in paginator.posts %}
+
+    <article class="post">
+        <header class="post-header">
+          <time class="post-date" datetime="{{ post.date | date:"%d-%m-%y" }}">
+              {{ post.date | date_to_string }}
+          </time>
+            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            {{ post.resume }}
+        </section>
+    </article>
+
+    {% endfor %}
+
+    {% include pagination.html %}
+
+</main>

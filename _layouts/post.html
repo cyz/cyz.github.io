@@ -1,50 +1,78 @@
 ---
 layout: default
+disqus: true
+archive: false
+post_class: post-template
 ---
 
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                    <h2 class="subheading">{{ page.subtitle }}</h2>
-                    {% endif %}
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
+<header class="main-header post-head {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <nav class="main-nav {% if page.cover %} overlay {% endif %} clearfix">
+        <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
+        <a class="subscribe-button icon-link" href="/sobre">Sobre</a>
+        <a class="subscribe-button icon-feed" href="/talks">Talks</a>
+        <h2 class="post-head-title">@cyz</h2>
+    </nav>
 </header>
 
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<main class="content" role="main">
 
-				{{ content }}
+    <article class="post">
 
-                <hr>
+        <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEAAQAAAAB0CZXLAAAAAnRSTlMAAQGU/a4AAACFSURBVHhe7JhRCsAgDEPTsftfuYPBCFLB/+UFKkXfVyBFVR8kAAAAAKl3/aWD/gFUv+sWeI8SfACwvhyMXEhJubjXFMw+zIciOADOhXoAFW8UQJUr1Qfmg9WucKMAqpgPFu+LRd7DKOYDRnF/ULsSjQLg/wFg6tno/MWoglEFowpGFeAFAHKhU7rgv9J1AAAAAElFTkSuQmCC" />{{ page.date | date_to_string }}</time>
+                {% if page.categories.size > 0 %}
+                    {{ page.categories | array_to_sentence_string | prepend: 'em ' }}
+                {% endif %}
+            </section>
+        </header>
 
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Post Anterior</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Próximo Post &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
+        <section class="post-content">
+            {{content}}
+        </section>
 
-            </div>
-        </div>
-    </div>
-</article>
+        {% if page.archive %}
+        <section class="archive">
+            <h5>Archive</h5>
+            <ul>
+                {% for post in site.posts %}
+                    <li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
 
-<hr>
+        <footer class="post-footer">
+            <!-- If we want to display author's name and bio -->
+            {% if page.author %}
+                <figure class="author-image">
+                    <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/authors/{{page.author-photo}})">
+                    <span class="hidden">{{ page.author }}'s Picture</span></a>
+                </figure>
+                <section class="author">
+                    <!-- Author Name -->
+                    <h4> {{ page.author }} <br/><br/>
+                      <a class="icon-twitter" href="http://twitter.com/{{page.twitter}}" target="_blank">
+                        <span class="hidden">Twitter</span>
+                    </a>
+                    <a class="icon-facebook" href="https://www.facebook.com/{{page.facebook}}" target="_blank">
+                        <span class="hidden">Facebook</span>
+                    </a></h4>
+                    <!-- Author Bio -->
+                    <p>
+                        {{ page.resume-author }}
+                    </p>
+                </section>
+            {% endif %}
+
+            <!-- Share links section -->
+            {% include share.html %}
+
+            {% include disqus.html %}
+
+        </footer>
+
+    </article>
+
+</main>
