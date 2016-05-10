@@ -29,4 +29,11 @@ Womakerscode: o cenário das mulheres na tecnologia e o empoderamento
 <p><strong>2014</strong></p>
 <ul>
 <li><a href="http://pt.slideshare.net/cynthiazanoni/testes-em-aplicaes-web" target="_blank">Testes em Aplicações Web - Jornada Acadêmica Pastor Dohms</a></li>
+<li><a href="https://docs.google.com/presentation/d/1rfhgmBgA1aZOk2n5BP_LzlukrL2VIcb9k9NtFpRcG70/edit?usp=sharing" target="_blank">Flat Design x Skeumorfismo - Jornada Acadêmica Pastor Dohms</a></li>
+
+</ul>
+
+<p><strong>2013</strong></p>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1K27Y91UNpIwn6brCR1vztcdEYPMvNf8EB5BIoA9P-Pw/edit?usp=sharing" target="_blank">Redes Sociais - Jornada Acadêmica Pastor Dohms</a></li>
 </ul>
