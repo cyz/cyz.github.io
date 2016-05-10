@@ -5,7 +5,7 @@ meta_description: "Blog de Cynthia Zanoni, evangelista de tecnologias open web, 
 markdown: kramdown
 highlighter: rouge
 logo: false
-paginate: 3
+paginate: 5
 baseurl: /
 domain_name: 'http://cyz.github.io'
 google_analytics: 'UA-58464382-1'
