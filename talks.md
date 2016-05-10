@@ -3,6 +3,8 @@ layout: page
 title: Talks
 ---
 
+<em>Página em atualização</em>
+
 <p><strong>2016</strong></p>
 <ul>
 <li><a href="http://pt.slideshare.net/cynthiazanoni/open-source-nas-nuvens-flisol-ifsp-votuporanga-60990424" target="_blank">Open Source nas nuvens - FLISOL IFSP Votuporanga
