@@ -7,6 +7,11 @@ title: Talks
 <ul>
 <li><a href="http://pt.slideshare.net/cynthiazanoni/open-source-nas-nuvens-flisol-ifsp-votuporanga-60990424" target="_blank">Open Source nas nuvens - FLISOL IFSP Votuporanga
 </a></li>
+<li><a href="https://www.youtube.com/watch?v=LDqZW4TBtsE" target="_blank">
+Womakerscode: o cenário das mulheres na tecnologia e o empoderamento
+</a></li>
+
+
 </ul>
 
 <p><strong>2015</strong></p>
