@@ -479,6 +479,7 @@ margin on the iframe, cause it breaks stuff. */
     background: #222 no-repeat center center;
     background-size: cover;
     overflow: hidden;
+    background-image: url(assets/images/cover-blog.png);
 }
 
 .main-header .inner {
