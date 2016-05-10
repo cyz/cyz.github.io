@@ -87,3 +87,5 @@ Com as configurações iniciais concluídas, sua aplicação já está disponív
 ![app-01](https://cloud.githubusercontent.com/assets/2198735/14961802/09d2943e-1072-11e6-9c1c-9f8215e858c2.PNG)
 
 Parabéns, você conclui este Hands-on-lab e conseguiu criar uma web app, baseada em dados abertos e com integração contínua.
+Confira o vídeo deste tutorial:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EwnILDqI9ko" frameborder="0" allowfullscreen></iframe>
