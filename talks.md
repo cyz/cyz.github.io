@@ -11,6 +11,7 @@ title: Talks
 
 <p><strong>2015</strong></p>
 <ul>
+<li><a href="http://pt.slideshare.net/cynthiazanoni/planejamento-em-mobile-marketing-do-sms-ao-whatsapp" target="_blank">Mobile Marketing: do SMS ao WhatsApp - 2ª Maratona Digital em Porto Alegre</a></li>
 <li><a href="http://pt.slideshare.net/cynthiazanoni/do-prottipo-ao-negcio" target="_blank">Do protótipo ao negócio - Conexão KingHost</a></li>
 <li><a href="http://pt.slideshare.net/cynthiazanoni/seja-um-embaixador-firefox" target="_blank">Seja um embaixador Firefox! - FISL</a></li>
 <li><a href="http://pt.slideshare.net/cynthiazanoni/js4-girls-captulo-porto-alegre" target="_blank">JS4GIRLS Porto Alegre</a></li>
