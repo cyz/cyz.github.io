@@ -12,7 +12,9 @@ title: Talks
 <li><a href="https://www.youtube.com/watch?v=LDqZW4TBtsE" target="_blank">
 Womakerscode: o cenário das mulheres na tecnologia e o empoderamento
 </a></li>
-
+<li><a href="http://womakerscode.org" target="_blank">
+WoMakersCode: Curadoria e Organização da Maratona Nacional
+</a></li>
 
 </ul>
 
@@ -26,6 +28,10 @@ Womakerscode: o cenário das mulheres na tecnologia e o empoderamento
 <li><a href="https://www.facebook.com/mozillabrasil/photos/a.325021597539931.69102.201846359857456/939819406060144/?type=3&theater" target="_blank">Hands-on UX: Testes do Aplicativo WebMaker, Mozilla - FISL</a></li>
 <li><a href="http://cyz.github.io/talk/firefoxos-rsjs/" target="_blank">Firefox OS e o mobile de amanhã - RSJS</a></li>
 <li><a href="http://pt.slideshare.net/cynthiazanoni/js4-girls-captulo-porto-alegre" target="_blank">JS4GIRLS Porto Alegre</a></li>
+<li>Design de Informação, Wayfinding e apps incríveis - Meetup GUMOBILE-RS de Maio</li>
+<li><a href="http://womakerscode.org" target="_blank">
+WoMakersCode: Curadoria e Organização dos Workshops mensais sobre mobile e front-end
+</a></li>
 </ul>
 
 <p><strong>2014</strong></p>
