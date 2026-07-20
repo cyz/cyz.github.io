@@ -1,0 +1,55 @@
+{
+  "Metadata": {
+    "homeTitle": "Cynthia Zanoni | Technology and Innovation Leader",
+    "homeDescription": "Founder of the WoMakersCode nonprofit and Global Cloud Advocate at Microsoft. AI, Developer Tools, and Technology Community.",
+    "articlesTitle": "Articles | Cynthia Zanoni",
+    "articlesDescription": "Articles and writing by Cynthia Zanoni on AI, developer tools, community, and women in technology.",
+    "projectsTitle": "Projects | Cynthia Zanoni",
+    "projectsDescription": "Projects by Cynthia Zanoni — products, programs, and communities that make technology more accessible."
+  },
+  "Nav": {
+    "projects": "Projects",
+    "articles": "Articles",
+    "womakerscode": "WoMakersCode",
+    "primaryLabel": "Primary",
+    "homeLabel": "Home"
+  },
+  "LanguagePicker": {
+    "label": "Select language",
+    "title": "Language",
+    "english": "English",
+    "portuguese": "Português"
+  },
+  "ThemeToggle": {
+    "label": "Toggle color theme"
+  },
+  "Social": {
+    "label": "Social links"
+  },
+  "Home": {
+    "tagline": "Build. Belong. Become.",
+    "introLabel": "Introduction",
+    "avatarAlt": "Portrait of Cynthia Zanoni",
+    "intro1": "<b>Hey, I'm Cynthia Zanoni.</b> I believe technology is one of the most powerful ways to create opportunities. For the past 16+ years, I've been <b>building software, supporting developers, and creating communities</b>.",
+    "intro3": "Born in Porto Alegre, southern Brazil, and now based in São Paulo, <b>I love building things that help people grow</b>, exploring what's next in AI, and bringing communities together.",
+    "bioHeading": "Bio",
+    "bioNote": "This is made for journalists (<i>look at her!</i>), podcast hosts, and event organizers to copy-and-paste.",
+    "bio": "Cynthia Zanoni is a Global Cloud Advocate at Microsoft, where she connects developers to the technologies shaping the future of software engineering through AI, GitHub, and Visual Studio Code.<br></br><br></br>With more than 16 years of experience in technology, she is the founder of WoMakersCode, a nonprofit organization that has already impacted more than 450,000 women across 30+ countries through free programs for education, training, and employability in technology.<br></br><br></br>In 2024, she was recognized by the UN Global Compact in Brazil as one of the most prominent leaders in advancing gender and racial equity in the technology sector.",
+    "copyBio": "Copy Bio",
+    "copyBioLabel": "Copy bio to clipboard",
+    "copied": "Copied!",
+    "downloadHeadshot": "Download Headshot"
+  },
+  "Articles": {
+    "title": "Articles",
+    "note": "Writing on AI, developer tools, community, and building careers in technology.",
+    "listLabel": "Article list",
+    "empty": "New articles are on the way. Check back soon."
+  },
+  "Projects": {
+    "title": "Projects",
+    "note": "Products, programs, and communities I've built to make technology more accessible.",
+    "listLabel": "Project list",
+    "empty": "Projects are being added. Check back soon."
+  }
+}
