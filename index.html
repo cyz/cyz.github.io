@@ -1,18 +1,168 @@
----
-layout: default
----
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cynthia Zanoni: Líder de Tecnologia e Inovação</title>
+  <meta name="description" content="Fundadora da ONG WoMakersCode e Global Cloud Advocate na Microsoft. AI, Developer Tools e Comunidade de Tecnologia." />
+  <link rel="icon" type="image/svg+xml" href="assets/images/developer-pulse.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script>
+    // Apply the saved/preferred theme before paint to avoid a flash.
+    (function () {
+      try {
+        var stored = localStorage.getItem("theme");
+        var theme =
+          stored ||
+          (window.matchMedia &&
+          window.matchMedia("(prefers-color-scheme: light)").matches
+            ? "light"
+            : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <div class="site">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Home">
+        <img src="assets/images/developer-pulse.svg" alt="" width="36" height="36" />
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <span class="nav-pill" aria-hidden="true"></span>
+        <a href="https://womakerscode.org/" class="nav-link" target="_blank" rel="noopener">WoMakersCode</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-picker" id="lang-picker">
+          <button id="lang-button" class="icon-button lang-button" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Select language" title="Language">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M2 12h20"></path>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <span class="lang-current">EN</span>
+          </button>
+          <ul id="lang-menu" class="lang-menu" role="listbox" aria-label="Language" hidden>
+            <li role="option" data-lang="en" aria-selected="true">English</li>
+            <li role="option" data-lang="pt" aria-selected="false">Português</li>
+          </ul>
+        </div>
+        <button id="theme-toggle" class="icon-button" type="button" aria-label="Toggle color theme" aria-pressed="false">
+          <svg class="icon icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+          </svg>
+          <svg class="icon icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
       </div>
+    </header>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+    <main class="content">
+      <h1 class="tagline">Build. Belong. Become.</h1>
+
+      <section class="intro" aria-label="Introduction">
+        <img class="avatar" src="https://drive.google.com/thumbnail?id=1OPesrfYfmmPICDVDctgRiXJ16ZbAR2cB&sz=w1000" alt="Portrait of Cynthia Zanoni" width="360" height="360" />
+        <div class="intro-body">
+          <p data-en-html="<strong>Hey, I'm Cynthia Zanoni.</strong> I believe technology is one of the most powerful ways to create opportunities." data-pt-html="<strong>Oi, eu sou a Cynthia Zanoni.</strong> Acredito que a tecnologia é uma das formas mais poderosas de criar oportunidades.">
+            <strong>Hey, I'm Cynthia Zanoni.</strong> I believe technology is one
+            of the most powerful ways to create opportunities.
+          </p>
+          <p data-en-html="For the past 16+ years, I've been building software, supporting developers, and creating communities. Today, I'm a <strong>Global Cloud Advocate at Microsoft</strong>, focused on AI and developer tools, and the <strong>Founder of WoMakersCode</strong>, a nonprofit that has helped more than 450,000 women across 30+ countries start and grow careers in technology." data-pt-html="Nos últimos 16+ anos, venho construindo software, apoiando pessoas desenvolvedoras e criando comunidades. Hoje, sou <strong>Global Cloud Advocate na Microsoft</strong>, com foco em IA e ferramentas para desenvolvedores, e <strong>Fundadora do WoMakersCode</strong>, uma organização sem fins lucrativos que já ajudou mais de 450.000 mulheres em mais de 30 países a começar e crescer suas carreiras em tecnologia.">
+            For the past 16+ years, I've been building software, supporting
+            developers, and creating communities. Today, I'm a
+            <strong>Global Cloud Advocate at Microsoft</strong>, focused on AI and
+            developer tools, and the <strong>Founder of WoMakersCode</strong>, a
+            nonprofit that has helped more than 450,000 women across 30+ countries
+            start and grow careers in technology.
+          </p>
+          <p data-en-html="Born in southern Brazil and now based in <strong>São Paulo</strong>, I spend most of my time building products, educational programs, and communities that make technology more accessible." data-pt-html="Nascida no sul do Brasil e hoje baseada em <strong>São Paulo</strong>, passo a maior parte do meu tempo construindo produtos, programas educacionais e comunidades que tornam a tecnologia mais acessível.">
+            Born in southern Brazil and now based in <strong>São Paulo</strong>, I
+            spend most of my time building products, educational programs, and
+            communities that make technology more accessible.
+          </p>
+          <p data-en-html="<strong>I love building things that help people grow</strong>, travel, exploring what's next in AI, bringing communities together, playing Pokémon, watching mystery movies, and turning ambitious ideas into reality." data-pt-html="<strong>Amo criar coisas que ajudam as pessoas a crescer</strong>, viajar, explorar o que vem a seguir em IA, reunir comunidades, jogar Pokémon, assistir filmes de mistério e transformar ideias ambiciosas em realidade.">
+            <strong>I love building things that help people grow</strong>, travel,
+            exploring what's next in AI, bringing communities together, playing
+            Pokémon, watching mystery movies, and turning ambitious ideas into
+            reality.
+          </p>
+        </div>
+      </section>
+
+      <section class="bio" aria-labelledby="bio-heading">
+        <h2 id="bio-heading" class="section-title">Bio</h2>
+        <p class="section-note" data-en-html="This is made for journalists (<i>look at her!</i>), podcast hosts, and event organizers to copy-and-paste." data-pt-html="Feito para jornalistas (<i>olha ela!</i>), apresentadores de podcast e organizadores de eventos copiarem e colarem.">
+          This is made for journalists (<i>look at her!</i>), podcast hosts, and event organizers to
+          copy-and-paste.
+        </p>
+        <blockquote class="bio-text" id="bio-text" data-en-html="Cynthia Zanoni is a Global Cloud Advocate at Microsoft, where she connects developers to the technologies shaping the future of software engineering through AI, GitHub, and Visual Studio Code. <br><br>With more than 16 years of experience in technology, she is the founder of WoMakersCode, a nonprofit organization that has already impacted more than 450,000 women across 30+ countries through free programs for education, training, and employability in technology. <br><br>In 2024, she was recognized by the UN Global Compact in Brazil as one of the most prominent leaders in advancing gender and racial equity in the technology sector." data-pt-html="Cynthia Zanoni é Global Cloud Advocate na Microsoft, onde conecta desenvolvedores às tecnologias que estão moldando o futuro da engenharia de software por meio de IA, GitHub e Visual Studio Code. <br><br>Com mais de 16 anos de experiência em tecnologia, é fundadora da WoMakersCode, organização sem fins lucrativos que já impactou mais de 450 mil mulheres em mais de 30 países por meio de programas gratuitos de educação, capacitação e empregabilidade em tecnologia. <br><br>Em 2024, foi reconhecida pelo Pacto Global da ONU no Brasil como uma das lideranças de maior destaque na promoção da equidade de gênero e raça no setor de tecnologia.">
+          Cynthia Zanoni is a Global Cloud Advocate at Microsoft, where she
+          connects developers to the technologies shaping the future of software
+          engineering through AI, GitHub, and Visual Studio Code.
+          <br /><br />
+          With more than 16 years of experience in technology, she is the founder
+          of WoMakersCode, a nonprofit organization that has already impacted more
+          than 450,000 women across 30+ countries through free programs for
+          education, training, and employability in technology.
+          <br /><br />
+          In 2024, she was recognized by the UN Global Compact in Brazil as one of
+          the most prominent leaders in advancing gender and racial equity in the
+          technology sector.
+        </blockquote>
+        <div class="bio-actions">
+          <button id="copy-bio" class="link-action" type="button" aria-label="Copy bio to clipboard">
+            <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span class="copy-btn-label" data-en="Copy Bio" data-pt="Copiar Bio">Copy Bio</span>
+          </button>
+          <span class="dot" aria-hidden="true">&bull;</span>
+          <a class="link-action" href="https://drive.google.com/uc?export=download&id=1OPesrfYfmmPICDVDctgRiXJ16ZbAR2cB" download>
+            <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span data-en="Download Headshot" data-pt="Baixar Foto">Download Headshot</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <nav class="social" aria-label="Social links">
+        <a class="social-link" href="https://x.com/cynthiazanoni" target="_blank" rel="me noopener" aria-label="X">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2H21.5l-7.5 8.57L23 22h-6.75l-5.29-6.91L4.9 22H1.64l8.02-9.17L1 2h6.92l4.78 6.32L18.244 2Zm-1.18 18h1.82L7.03 3.9H5.08L17.064 20Z"/></svg>
+        </a>
+        <a class="social-link" href="https://instagram.com/cynthia.zanoni" target="_blank" rel="me noopener" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        </a>
+        <a class="social-link" href="https://www.linkedin.com/in/cynthiazanoni/" target="_blank" rel="me noopener" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+        </a>
+        <a class="social-link" href="https://youtube.com/womakerscode" target="_blank" rel="me noopener" aria-label="YouTube">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.39.58A3 3 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12C4.5 20.5 12 20.5 12 20.5s7.5 0 9.39-.58a3 3 0 0 0 2.11-2.12A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.2 3.6-6.2 3.6Z"/></svg>
+        </a>
+        <a class="social-link" href="https://tiktok.com/@cynthiazanoni" target="_blank" rel="me noopener" aria-label="TikTok">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.82a4.28 4.28 0 0 1-1.06-2.82h-3.2v12.9a2.6 2.6 0 0 1-2.6 2.53 2.6 2.6 0 1 1 .78-5.08V9.99a5.86 5.86 0 0 0-.78-.05 5.83 5.83 0 1 0 5.83 5.83V9.01a7.5 7.5 0 0 0 4.37 1.4V7.2a4.28 4.28 0 0 1-3.34-1.38Z"/></svg>
+        </a>
+        <a class="social-link" href="https://bsky.app/profile/cynthiazanoni.bsky.social" target="_blank" rel="me noopener" aria-label="Bluesky">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.3 3.53C8.63 5.28 11.13 8.83 12 10.74c.87-1.9 3.37-5.46 5.7-7.21 1.68-1.26 4.4-2.24 4.4.87 0 .62-.36 5.2-.57 5.95-.72 2.6-3.37 3.26-5.72 2.86 4.11.7 5.16 3.02 2.9 5.34-4.3 4.4-6.17-1.1-6.65-2.51-.09-.26-.13-.38-.13-.28 0-.1-.04.02-.13.28-.48 1.41-2.35 6.91-6.65 2.51-2.26-2.32-1.21-4.64 2.9-5.34-2.35.4-5-.26-5.72-2.86C1.16 9.61.8 5.03.8 4.41c0-3.11 2.72-2.13 4.4-.87Z"/></svg>
+        </a>
+        <a class="social-link" href="https://womakerscode.substack.com/" target="_blank" rel="me noopener" aria-label="Substack">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.5 3.5h17v2.74h-17V3.5Zm0 5.02h17V22L12 17.15 3.5 22V8.52Z"/></svg>
+        </a>
+      </nav>
+    </footer>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
