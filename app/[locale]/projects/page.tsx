@@ -32,7 +32,7 @@ export default async function ProjectsPage({
 
   return (
     <>
-      <main className="content">
+      <main className="content projects-page">
         <header className="page-head">
           <h1 className="section-title tagline">{t("title")}</h1>
         </header>

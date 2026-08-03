@@ -22,6 +22,7 @@ export function CardGrid({ items, locale, label, emptyMessage }: Props) {
     <section className="card-grid" aria-label={label}>
       {items.map((item, i) => {
         const external = item.external ?? /^https?:/i.test(item.href);
+        const tagKey = item.tag.en.toLowerCase().replaceAll(" ", "-");
         return (
           <a
             key={`${item.href}-${i}`}
@@ -43,7 +44,9 @@ export function CardGrid({ items, locale, label, emptyMessage }: Props) {
               ) : null}
             </div>
             <div className="card-body">
-              <span className="card-tag">{item.tag[locale]}</span>
+              <span className="card-tag" data-tag={tagKey}>
+                {item.tag[locale]}
+              </span>
               <h2 className="card-title">{item.title[locale]}</h2>
               <p className="card-excerpt">{item.excerpt[locale]}</p>
               <span className="card-date">{item.date[locale]}</span>

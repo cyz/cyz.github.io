@@ -1,6 +1,6 @@
 :root {
   color-scheme: dark light;
-  --max-width: 62rem;
+  --max-width: 68rem;
   --font-sans: var(--font-poppins), "Poppins", -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --radius: 18px;
@@ -477,6 +477,10 @@ html[data-theme="light"] .icon-button .icon-moon {
   margin-bottom: 4rem;
 }
 
+.projects-page .card-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -532,6 +536,66 @@ html[data-theme="light"] .icon-button .icon-moon {
   background: var(--btn-bg-hover);
   padding: 0.45rem 0.85rem;
   border-radius: 999px;
+}
+
+.card-tag[data-tag="english"] {
+  color: #93c5fd;
+  background: #172554;
+}
+
+.card-tag[data-tag="portuguese"] {
+  color: #86efac;
+  background: #14532d;
+}
+
+.card-tag[data-tag="design-tool"] {
+  color: #f9a8d4;
+  background: #500724;
+}
+
+.card-tag[data-tag="open-source"] {
+  color: #fcd34d;
+  background: #422006;
+}
+
+.card-tag[data-tag="community"] {
+  color: #67e8f9;
+  background: #164e63;
+}
+
+.card-tag[data-tag="education-platform"] {
+  color: #c4b5fd;
+  background: #3b0764;
+}
+
+html[data-theme="light"] .card-tag[data-tag="english"] {
+  color: #1e40af;
+  background: #dbeafe;
+}
+
+html[data-theme="light"] .card-tag[data-tag="portuguese"] {
+  color: #166534;
+  background: #dcfce7;
+}
+
+html[data-theme="light"] .card-tag[data-tag="design-tool"] {
+  color: #9d174d;
+  background: #fce7f3;
+}
+
+html[data-theme="light"] .card-tag[data-tag="open-source"] {
+  color: #92400e;
+  background: #fef3c7;
+}
+
+html[data-theme="light"] .card-tag[data-tag="community"] {
+  color: #155e75;
+  background: #cffafe;
+}
+
+html[data-theme="light"] .card-tag[data-tag="education-platform"] {
+  color: #6b21a8;
+  background: #f3e8ff;
 }
 
 .card-title {
@@ -661,6 +725,9 @@ html[data-theme="light"] .icon-button .icon-moon {
     max-width: calc(100% - 2.5rem);
   }
   .card-grid {
+    grid-template-columns: 1fr;
+  }
+  .projects-page .card-grid {
     grid-template-columns: 1fr;
   }
   .intro-body p {
