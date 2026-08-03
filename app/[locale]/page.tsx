@@ -4,10 +4,7 @@ import { SocialLinks } from "@/components/SocialLinks";
 import { CopyBioButton } from "@/components/CopyBioButton";
 import type { Locale } from "@/i18n/routing";
 
-const AVATAR_SRC =
-  "https://drive.google.com/thumbnail?id=1OPesrfYfmmPICDVDctgRiXJ16ZbAR2cB&sz=w1000";
-const HEADSHOT_DOWNLOAD =
-  "https://drive.google.com/uc?export=download&id=1OPesrfYfmmPICDVDctgRiXJ16ZbAR2cB";
+const HEADSHOT_SRC = "/assets/images/cynthiazanoni.jpg";
 
 export async function generateMetadata({
   params,
@@ -50,7 +47,7 @@ export default async function HomePage({
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           className="avatar"
-          src={AVATAR_SRC}
+          src={HEADSHOT_SRC}
           alt={t("avatarAlt")}
           width={360}
           height={360}
@@ -74,7 +71,7 @@ export default async function HomePage({
           <span className="dot" aria-hidden="true">
             &bull;
           </span>
-          <a className="link-action" href={HEADSHOT_DOWNLOAD} download>
+          <a className="link-action" href={HEADSHOT_SRC} download>
             <svg
               className="icon"
               width="16"

@@ -33,7 +33,7 @@
     "intro1": "<b>Oi, eu sou a Cynthia Zanoni.</b> Acredito que a tecnologia é uma das formas mais poderosas de criar oportunidades. Nos últimos 16+ anos, venho <b>construindo software, apoiando pessoas desenvolvedoras e criando comunidades</b>.",
     "intro3": "Nascida em Porto Alegre, no sul do Brasil, e hoje baseada em São Paulo, <b>amo criar coisas que ajudam as pessoas a crescer</b>, explorar o que vem a seguir em IA e reunir comunidades.",
     "bioHeading": "Bio",
-    "bioNote": "Feito para jornalistas (<i>olha ela!</i>), apresentadores de podcast e organizadores de eventos copiarem e colarem.",
+    "bioNote": "Feito para jornalistas, apresentadores de podcast e organizadores de eventos copiarem e colarem.",
     "bio": "Cynthia Zanoni é Global Cloud Advocate na Microsoft, onde conecta desenvolvedores às tecnologias que estão moldando o futuro da engenharia de software por meio de IA, GitHub e Visual Studio Code.<br></br><br></br>Com mais de 16 anos de experiência em tecnologia, é fundadora da WoMakersCode, organização sem fins lucrativos que já impactou mais de 450 mil mulheres em mais de 30 países por meio de programas gratuitos de educação, capacitação e empregabilidade em tecnologia.<br></br><br></br>Em 2024, foi reconhecida pelo Pacto Global da ONU no Brasil como uma das lideranças de maior destaque na promoção da equidade de gênero e raça no setor de tecnologia.",
     "copyBio": "Copiar Bio",
     "copyBioLabel": "Copiar bio para a área de transferência",
@@ -42,6 +42,7 @@
   },
   "Articles": {
     "title": "Artigos",
+    "count": "{count, plural, one {# artigo} other {# artigos}}",
     "note": "Textos sobre IA, ferramentas para desenvolvedores, comunidade e construção de carreiras em tecnologia.",
     "listLabel": "Lista de artigos",
     "empty": "Novos artigos estão a caminho. Volte em breve."

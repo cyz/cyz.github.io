@@ -35,6 +35,7 @@ export default async function ArticlesPage({
       <main className="content">
         <header className="page-head">
           <h1 className="section-title tagline">{t("title")}</h1>
+          <p className="section-note">{t("count", { count: articles.length })}</p>
         </header>
         <CardGrid
           items={articles}
