@@ -1,0 +1,23 @@
+{
+  "name": "Cynthia Zanoni",
+  "short_name": "CZ",
+  "description": "Site oficial de Cynthia Zanoni",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0d0f",
+  "theme_color": "#0d0d0f",
+  "icons": [
+    {
+      "src": "/assets/images/avatar.svg",
+      "sizes": "600x600",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/developer-pulse.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
