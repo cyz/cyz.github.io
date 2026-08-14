@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/components/Header";
 import { RevealController } from "@/components/RevealController";
+import { RouteFooter } from "@/components/RouteFooter";
 import { SetHtmlLang } from "@/components/SetHtmlLang";
 
 export function generateStaticParams() {
@@ -31,7 +32,10 @@ export default async function LocaleLayout({
       <SetHtmlLang locale={locale} />
       <div className="site">
         <Header />
-        {children}
+        <main id="main-content" className="content" tabIndex={-1}>
+          {children}
+        </main>
+        <RouteFooter />
         <RevealController />
       </div>
     </NextIntlClientProvider>
