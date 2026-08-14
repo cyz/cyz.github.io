@@ -35,7 +35,7 @@ export default async function ArticlesPage({
   const t = await getTranslations("Articles");
 
   return (
-    <main className="content">
+    <>
       <header className="page-head">
         <h1 className="section-title tagline">{t("title")}</h1>
         <p className="section-note">{t("count", { count: articles.length })}</p>
@@ -46,6 +46,6 @@ export default async function ArticlesPage({
         label={t("listLabel")}
         emptyMessage={t("empty")}
       />
-    </main>
+    </>
   );
 }

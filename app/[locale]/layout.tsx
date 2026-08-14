@@ -32,7 +32,9 @@ export default async function LocaleLayout({
       <SetHtmlLang locale={locale} />
       <div className="site">
         <Header />
-        {children}
+        <main id="main-content" className="content" tabIndex={-1}>
+          {children}
+        </main>
         <Footer />
         <RevealController />
       </div>

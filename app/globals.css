@@ -66,6 +66,27 @@ a:hover {
   text-decoration: underline;
 }
 
+.skip-link {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 100;
+  transform: translateY(calc(-100% - 2rem));
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--btn-bg);
+  color: var(--text);
+  padding: 0.65rem 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  transition: transform var(--transition), background var(--transition);
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
+  text-decoration: none;
+}
+
 strong {
   color: var(--text);
   font-weight: 600;

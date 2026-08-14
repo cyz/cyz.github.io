@@ -13,5 +13,9 @@ export const metadata: Metadata = createStaticMetadata({
 });
 
 export default function EncontroPage() {
-  return <EncontroFrame />;
+  return (
+    <main id="main-content" tabIndex={-1}>
+      <EncontroFrame />
+    </main>
+  );
 }

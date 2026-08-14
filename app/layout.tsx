@@ -51,7 +51,12 @@ export default function RootLayout({
       <head>
         <ThemeScript />
       </head>
-      <body>{children}</body>
+      <body>
+        <a className="skip-link" href="#main-content">
+          Skip to content
+        </a>
+        {children}
+      </body>
     </html>
   );
 }

@@ -35,7 +35,7 @@ export default async function ProjectsPage({
   const t = await getTranslations("Projects");
 
   return (
-    <main className="content projects-page">
+    <div className="projects-page">
       <header className="page-head">
         <h1 className="section-title tagline">{t("title")}</h1>
       </header>
@@ -45,6 +45,6 @@ export default async function ProjectsPage({
         label={t("listLabel")}
         emptyMessage={t("empty")}
       />
-    </main>
+    </div>
   );
 }
