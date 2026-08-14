@@ -4,6 +4,7 @@ import { CardGrid } from "@/components/CardGrid";
 import { Footer } from "@/components/Footer";
 import { projects } from "@/content/projects";
 import type { Locale } from "@/i18n/routing";
+import { createPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -16,8 +17,12 @@ export async function generateMetadata({
     namespace: "Metadata",
   });
   return {
-    title: t("projectsTitle"),
-    description: t("projectsDescription"),
+    ...createPageMetadata({
+      title: t("projectsTitle"),
+      description: t("projectsDescription"),
+      locale: locale as Locale,
+      path: "/projects",
+    }),
   };
 }
 
