@@ -309,6 +309,60 @@ html[data-theme="light"] .icon-button .icon-moon {
   flex: 1 1 auto;
 }
 
+/* Not found */
+.not-found {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 32rem;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.not-found-code {
+  margin: 0;
+  font-size: clamp(5rem, 20vw, 10rem);
+  font-weight: 800;
+  letter-spacing: -0.08em;
+  line-height: 1;
+  background: var(--grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.not-found-title {
+  margin: 1.5rem 0 0.5rem;
+  font-size: clamp(2rem, 6vw, 2.9rem);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.not-found-message {
+  max-width: 32rem;
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.not-found-link {
+  margin-top: 2rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--btn-bg);
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.not-found-link:hover {
+  background: var(--btn-bg-hover);
+  text-decoration: none;
+}
+
 /* Gradient tagline */
 .tagline {
   margin: 0.5rem 0 2rem;
