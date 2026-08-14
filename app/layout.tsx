@@ -14,8 +14,10 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: siteName,
+  manifest: "/manifest.json",
   icons: {
     icon: [{ url: "/assets/images/developer-pulse.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/assets/images/avatar.svg", type: "image/svg+xml" }],
   },
   openGraph: {
     siteName,
@@ -49,6 +51,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        <meta id="theme-color-meta" name="theme-color" content="#ffffff" />
         <ThemeScript />
       </head>
       <body>
