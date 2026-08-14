@@ -25,6 +25,7 @@ yarn-error.log*
 
 # typescript
 next-env.d.ts
+*.tsbuildinfo
 
 # legacy jekyll (no longer used)
 _site
