@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SocialLinks } from "@/components/SocialLinks";
 import { CopyBioButton } from "@/components/CopyBioButton";
@@ -78,13 +79,14 @@ export default async function HomePage({
       <SocialLinks />
 
       <section className="intro" aria-label={t("introLabel")}>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           className="avatar"
           src={HEADSHOT_SRC}
           alt={t("avatarAlt")}
           width={360}
           height={360}
+          sizes="(max-width: 900px) 100vw, 20rem"
+          priority
         />
         <div className="intro-body">
           <p>{t.rich("intro1", rich)}</p>
