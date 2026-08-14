@@ -26,6 +26,11 @@
   "Social": {
     "label": "Redes sociais"
   },
+  "NotFound": {
+    "title": "Página não encontrada",
+    "message": "A página que você procura não existe ou pode ter sido movida.",
+    "homeLink": "Voltar ao início"
+  },
   "Home": {
     "tagline": "Build. Belong. Become.",
     "introLabel": "Introdução",
